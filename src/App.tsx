@@ -28,9 +28,9 @@ function App() {
           Quo esse explicabo molestiae optio vitae rerum atque excepturi aut sequi repudiandae iste, perferendis consectetur eligendi cupiditate temporibus repellendus dolorem numquam neque? Ad unde cumque libero mollitia laudantium ut assumenda.</p>
         </main>
         <aside className="sidebar">
-          <Button label="Click Me" onclick={() => alert("Button clicked!")} iconPath="src/assets/home.png" />
-          <Button label="Click Me" onclick={() => alert("Button clicked!")} iconPath="src/assets/home.png" />
-          <Button label="Click Me" onclick={() => alert("Button clicked!")} iconPath="src/assets/home.png" />
+          <Button label="Click Me" onclick={() => alert("Button clicked!")} iconPath="/src/assets/home.png" />
+          <Button label="Click Me" onclick={() => alert("Button clicked!")} iconPath="/src/assets/home.png" />
+          <Button label="Click Me" onclick={() => alert("Button clicked!")} iconPath="/src/assets/home.png" />
         </aside>
       </div>
   );
