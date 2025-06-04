@@ -23,7 +23,7 @@ function App() {
           </div>
         </main>
         <aside className="sidebar">
-          <Button id="bt-1" label="Click Me" onclick={() => scrollToElement("header-pane")} iconPath="/src/assets/home.png" />
+          <Button id="bt-1" label="Click Me" onclick={() => scrollToElement("header-pane")} iconPath="https://img.icons8.com/fluency-systems-filled/500/FFFFFF/home.png " />
           <Button id="bt-2" label="Click Me" onclick={() => scrollToElement("elem2")} iconPath="/src/assets/home.png" />
           <Button id="bt-3" label="Click Me" onclick={() => scrollToElement("elem3")} iconPath="/src/assets/home.png" />
         </aside>

@@ -7,16 +7,9 @@ interface ButtonProps {
     id?: string;
 }
 function Button({ label, onclick, iconPath, id}: ButtonProps) {
-    const [isHovered, setIsHovered] = useState(false);
-    const handleMouseEnter = () => {
-        setIsHovered(true);
-    };
-    const handleMouseLeave = () => {
-        setIsHovered(false);
-    };
     return (
-        <button id={id} onClick={onclick} className="Button" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            {isHovered ? <p> {label} </p> : null}
+        <button id={id} onClick={onclick} className="Button">
+            <span className="ButtonLabel">{label}</span>
             <img src={iconPath} alt="icon" className="ButtonIcon" /> 
         </button>
     );

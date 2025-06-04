@@ -23,7 +23,7 @@ div#header-pane {
   left: 0;  
   width:100%;
   height:100vh;
-  background-image: url('./assets/forest.jpg');
+  background-image: url('https://raw.githubusercontent.com/dvachette/framework_english_website/refs/heads/main/src/assets/forest.jpg');
 }
 
 button.Button {
