@@ -8,7 +8,7 @@ function App() {
           <div id="header-pane">
             <h1>Welcome to a world of ethic computers</h1>
           </div>
-          
+
           <div id="content-pane">
             <div id="social" className="item">
               <p id="elem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni fuga labore quisquam vitae ea porro alias placeat. Cupiditate quisquam in suscipit sunt, ad voluptatem nulla sequi eos similique voluptatum.
@@ -39,8 +39,12 @@ function App() {
         </main>
         <aside className="sidebar">
           <Button id="bt-1" label="Home" onclick={() => scrollToElement("header-pane")} iconPath="https://img.icons8.com/fluency-systems-filled/500/FFFFFF/home.png " />
-          <Button id="bt-2" label="Social" onclick={() => scrollToElement("social")} iconPath="/src/assets/home.png" />
-          <Button id="bt-3" label="Support" onclick={() => scrollToElement("support")} iconPath="/src/assets/home.png" />
+
+          <Button id="bt-2" label="Social" onclick={() => scrollToElement("social")} iconPath="https://img.icons8.com/material-rounded/500/FFFFFF/user-group-man-man.png" />
+          <Button id="bt-3" label="Support" onclick={() => scrollToElement("support")} iconPath="https://img.icons8.com/sf-ultralight-filled/500/FFFFFF/flex-biceps.png" />
+          <Button id="bt-3" label="Action" onclick={() => scrollToElement("action")} iconPath="https://img.icons8.com/material-rounded/500/FFFFFF/lightning-bolt--v1.png" />
+          <Button id="bt-3" label="Signal" onclick={() => scrollToElement("signal")} iconPath="https://img.icons8.com/ios-glyphs/500/FFFFFF/commercial.png" />
+          <Button id="bt-3" label="Stories" onclick={() => scrollToElement("stories")} iconPath="https://img.icons8.com/ios-glyphs/500/FFFFFF/book.png" />
         </aside>
       </div>
   );
