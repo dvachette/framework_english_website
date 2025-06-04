@@ -23,7 +23,7 @@ div#header-pane {
   left: 0;
   width:100%;
   height:100vh;
-  background-image: url('./assets/forest.jpg');
+  background-image: url('https://raw.githubusercontent.com/dvachette/framework_english_website/refs/heads/main/src/assets/forest.jpg');
 }
 
 button.Button {
@@ -62,8 +62,9 @@ aside.sidebar {
   right: 0;
   display:flex;
   flex-direction:column;
-  align-items: center;
+  align-items:flex-end;
   justify-content: space-evenly;
+  padding: 3%;
   width: 10vw;
   height:100%;
 }
@@ -96,4 +97,49 @@ img.img-round {
   /* width: 100%; */
   height: 30%;
   border-radius: 100px;
+}
+
+button > span.ButtonLabel {
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--button-color);
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  transform: translateX(50%);
+  animation: slideOut 0.1s ease-out forwards;
+  opacity: 0;
+}
+
+button:hover > span.ButtonLabel {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideIn 0.25s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
 }
