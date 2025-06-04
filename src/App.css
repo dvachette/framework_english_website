@@ -1,5 +1,5 @@
 #root {
-  --background-color: #3b683b; 
+  --background-color: #3b683b;
   --emphasis-color: #d2781f;
   --button-color: #ffffff;
 }
@@ -20,7 +20,7 @@ div.app {
 div#header-pane {
   position: relative;
   top: 0;
-  left: 0;  
+  left: 0;
   width:100%;
   height:100vh;
   background-image: url('./assets/forest.jpg');
@@ -48,8 +48,8 @@ h1 {
   font-size: 7rem;
 
   text-align: start;
-  top: 60%;
-  left: 0;
+  top: 70%;
+  left: 3%;
   width: 50%;
   height: 100%;
   margin: auto;
@@ -74,20 +74,26 @@ main {
   margin:0;
 }
 main > div#content-pane {
-  margin:0 auto;
-  width:80vw;
-  height:200vh;
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: var(--background-color);
+  height:500vh;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: transparent;
 }
-main > div > p {
+
+.item {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	align-items: center;
+}
+
+p {
   padding: 2rem;
   text-align: justify;
 }
 
 img.img-round {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  height: 30%;
   border-radius: 100px;
 }
