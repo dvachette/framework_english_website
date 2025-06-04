@@ -1,7 +1,7 @@
 #root {
   --background-color: #3b683b;
   --emphasis-color: #d2781f;
-  --button-color: #ffffff;
+  --button-color: #e4e3b2;
 }
 
 div.app {
@@ -14,7 +14,6 @@ div.app {
   margin:0;
   padding:0;
   display:flex;
-
 }
 
 div#header-pane {
@@ -46,7 +45,6 @@ button.Button > img.ButtonIcon {
 h1 {
   position:absolute;
   font-size: 7rem;
-
   text-align: start;
   top: 70%;
   left: 3%;
@@ -55,6 +53,7 @@ h1 {
   margin: auto;
   padding: 1rem;
   font-family: 'Jaro', sans-serif;
+  text-decoration: underline 10px solid var(--emphasis-color);
 }
 aside.sidebar {
   position: fixed;
@@ -64,7 +63,7 @@ aside.sidebar {
   flex-direction:column;
   align-items:flex-end;
   justify-content: space-evenly;
-  padding: 3%;
+  padding:3%;
   width: 10vw;
   height:100%;
 }
