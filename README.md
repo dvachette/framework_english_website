@@ -1,54 +1,80 @@
-# React + TypeScript + Vite
+# Ethic Computers – Single Page Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single-page application (SPA) built with [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Vite](https://vitejs.dev/). The project aims to inform users about ethical computing practices, including sustainability, privacy, open-source software, and social responsibility in technology.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with React and TypeScript  
+- ⚡ Fast development with Vite  
+- 🧭 Single-page architecture  
+- 📱 Responsive design  
+- 🌱 Focus on ethics in computing  
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/ethic-computers-spa.git
+cd ethic-computers-spa
+npm install
+```
+### Development
+
+`npm run dev`
+
+Runs the app in development mode. Open http://localhost:5173 to view it in your browser.
+### Build
+
+`npm run build`
+
+Builds the app for production.
+
+### Preview (after build)
+
+npm run preview
+
+Serves the production build locally for testing.
+Project Structure
+
+```
+src/
+├── assets/        # Static assets
+├── components/    # Reusable React components
+├── pages/         # Page-level components
+├── App.tsx        # Root component
+├── main.tsx       # Entry point
+├── styles/        # Global styles
+└── types/         # TypeScript type definitions
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+You can deploy the app using any static site hosting service, such as:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+  - Vercel
+
+  - Netlify
+
+  - GitHub Pages
+
+### License
+
+This project is licensed under the MIT License.
+### Acknowledgements
+
+    React
+
+    TypeScript
+
+    Vite
+
+    Made with purpose: promoting awareness of ethical computing.
+
+
+You can copy and paste this content directly into your `README.md` file. Let me know if you want to include badges, screenshots, or links to related resources.
