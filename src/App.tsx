@@ -50,7 +50,7 @@ function App() {
 										<em>Partnerships:</em> We collaborate
 										with schools, universities, and
 										non-profit organizations like
-										<em> The Linux Software Foundation</em>
+										<em> The Linux Software Foundation </em>
 										to spread the message. Offer incentives
 										for institutions that adopt ethical
 										computing practices.

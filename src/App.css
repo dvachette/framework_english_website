@@ -251,8 +251,14 @@ button:hover > span.ButtonLabel {
 }
 
 @media (max-width : 1200px) {
-	aside.sidebar {
+	aside.sidebar > Button {
 		display: none;
+	}
+
+	aside.sidebar {
+		height: 98vh;
+		flex-direction: column;
+		justify-content: flex-end;
 	}
 
 	div.item {
@@ -293,8 +299,12 @@ button:hover > span.ButtonLabel {
 	}
 
 	.content p {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	.content {
+		margin-right: 0;
 	}
 
 	main div#content-pane {
@@ -304,6 +314,11 @@ button:hover > span.ButtonLabel {
 
 	li {
 		margin-top: 5%;
+		list-style-type: none;
+	}
+
+	ul {
+		padding-left: 0;
 	}
 
 	.item img {
@@ -336,5 +351,10 @@ button:hover > span.ButtonLabel {
 
 	.icons a {
 		width: fit-content;
+	}
+
+	.footer-item ul {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
