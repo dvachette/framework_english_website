@@ -156,7 +156,7 @@ function App() {
 										professionals.
 									</li>
 									<li>
-										<em>Influencer Partnerships:</em> We 
+										<em>Influencer Partnerships:</em> We
                     look forward to collaborate
                     with influencers and thought
 										leaders who can signal the importance of
@@ -216,7 +216,7 @@ function App() {
 							<li>Grégoire MARION</li>
 							<li>Donatien VACHETTE</li>
 						</ul>
-            <img alt="woquiez.png" id="woquiez" src="/image.png" />
+            	<img alt="woquiez.png" id="woquiez" src="/image.png" />
 					</div>
 					<div className="footer-item" id="credits">
 						<h4>Credits</h4>
@@ -227,14 +227,11 @@ function App() {
 					</div>
 					<div>
 						<h4>See also</h4>
-						<ul>
-							<li>
-								<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-									Useful link
-								</a>
-							</li>
-							{/* <li><a href="http://p2400602.pages.univ-lyon1.fr/why-linux/form.html">12</a></li> */}
-						</ul>
+						<div className="icons">
+							<a href="https://www.instagram.com/sustainable._.future/"><img alt="instalogo.png" src={"https://img.icons8.com/ios-filled/50/" + color + "/instagram-new--v1.png"}></img></a>
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img alt="gift.png" src={"https://img.icons8.com/sf-black/50/" + color + "/packaging.png"}></img></a>
+							<img alt="instaqrcode.png" src="public/sustainable._.future_qr.png"></img>
+						</div>
 					</div>
 				</div>
 			</main>

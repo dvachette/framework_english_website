@@ -30,6 +30,16 @@ li {
 	padding-bottom: 5%;
 }
 
+.icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.icons > img {
+	width: 15rem;
+}
+
 .content {
 	display: flex;
 	flex-direction: column;
@@ -190,4 +200,3 @@ button:hover > span.ButtonLabel {
 		opacity: 0;
 	}
 }
-
