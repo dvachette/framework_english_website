@@ -20,6 +20,12 @@ em {
 
 h3 {
 	margin: 0;
+	font-size: 3rem;
+	font-family: "Jaro", sans-serif;
+}
+
+li {
+	padding-bottom: 5%;
 }
 
 .content {
@@ -99,7 +105,8 @@ main > div#footer-pane {
 	flex-direction: row;
 	align-items: top;
 	justify-content: space-around;
-	padding: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 .item {
