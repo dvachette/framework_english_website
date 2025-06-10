@@ -204,6 +204,30 @@ function App() {
 						/>
 					</div>
 				</div>
+
+				<div id="footer-pane">
+					<div className="footer-item" id="authors">
+						<h4>Authors</h4>
+						<ul>
+							<li>Grégoire MARION</li>
+							<li>Donatien VACHETTE</li>
+						</ul>
+					</div>
+					<div className="footer-item" id="credits">
+						<h4>Credits</h4>
+						<ul>
+							<li>Copyright©</li>
+							<li>[Benjamin | Baptiste]</li>
+						</ul>
+					</div>
+					<div>
+						<h4>See also</h4>
+						<ul>
+							<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Useful link</a></li>
+							{/* <li><a href="http://p2400602.pages.univ-lyon1.fr/why-linux/form.html">12</a></li> */}
+						</ul>
+					</div>
+				</div>
 			</main>
 			<aside className="sidebar">
 				<Button
@@ -237,7 +261,7 @@ function App() {
 					}
 				/>
 				<Button
-					id="bt-3"
+					id="bt-4"
 					label="Action"
 					onclick={() => scrollToElement("action")}
 					iconPath={
@@ -247,7 +271,7 @@ function App() {
 					}
 				/>
 				<Button
-					id="bt-3"
+					id="bt-5"
 					label="Signal"
 					onclick={() => scrollToElement("signal")}
 					iconPath={
@@ -257,13 +281,23 @@ function App() {
 					}
 				/>
 				<Button
-					id="bt-3"
+					id="bt-6"
 					label="Stories"
 					onclick={() => scrollToElement("stories")}
 					iconPath={
 						"https://img.icons8.com/ios-glyphs/500/" +
 						color +
 						"/book.png"
+					}
+				/>
+				<Button
+					id="bt-7"
+					label="Credits"
+					onclick={() => scrollToElement("footer-pane")}
+					iconPath={
+						"https://img.icons8.com/material-rounded/500/" +
+						color +
+						"/creative-commons.png"
 					}
 				/>
 			</aside>
