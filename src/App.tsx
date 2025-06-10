@@ -15,7 +15,7 @@ function App() {
 					<div id="social" className="item">
 						<div className="content">
 							<h3>
-								Let's build a community around ethical computing
+								Let's build a community around ethical computing !
 							</h3>
 							<p id="elem1">
 								<ul>
