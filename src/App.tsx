@@ -11,15 +11,19 @@ function App() {
 					<h1>Welcome to a world of ethic computers</h1>
 				</div>
 
-				<div className="logo">
-					<img alt="sustainable-logo.png" src="white-transparent-logo.png"></img>
+				<div id="logo">
+					<img
+						alt="sustainable-logo.png"
+						src="white-transparent-logo.png"
+					></img>
 				</div>
 
 				<div id="content-pane">
 					<div id="social" className="item">
 						<div className="content">
 							<h3>
-								Let's build a community around ethical computing !
+								Let's build a community around ethical computing
+								!
 							</h3>
 							<p id="elem1">
 								<ul>
@@ -110,13 +114,13 @@ function App() {
 										disposed of responsibly.
 									</li>
 									<li>
-										<em>Advocacy:</em> We advocate for policies
-										that encourage the production and use of
-										ethical computers. Engage with
-										policymakers to push for regulations
-										that support fair labor practices and
-										environmental sustainability in the tech
-										industry.
+										<em>Advocacy:</em> We advocate for
+										policies that encourage the production
+										and use of ethical computers. Engage
+										with policymakers to push for
+										regulations that support fair labor
+										practices and environmental
+										sustainability in the tech industry.
 									</li>
 									<li>
 										<em>Corporate Responsibility:</em>{" "}
@@ -146,25 +150,26 @@ function App() {
 									<li>
 										<em>Awareness Campaigns:</em> We use
 										various media channels to signal the
-										importance of ethical computing, creating
-										impactful advertisements, documentaries,
-										and articles that warns about the issues
-										of non sustainable computers.
+										importance of ethical computing,
+										creating impactful advertisements,
+										documentaries, and articles that warns
+										about the issues of non sustainable
+										computers.
 									</li>
 									<li>
-										<em>Events and Conferences:</em> We
-                    plan to organize and participate in events and
-										conferences focused on ethical
-										computing. We want to use these platforms to signal
-										key messages and to connect with other
-										professionals.
+										<em>Events and Conferences:</em> We plan
+										to organize and participate in events
+										and conferences focused on ethical
+										computing. We want to use these
+										platforms to signal key messages and to
+										connect with other professionals.
 									</li>
 									<li>
 										<em>Influencer Partnerships:</em> We
-                    look forward to collaborate
-                    with influencers and thought
-										leaders who can signal the importance of
-										ethical computing to their followers.
+										look forward to collaborate with
+										influencers and thought leaders who can
+										signal the importance of ethical
+										computing to their followers.
 									</li>
 								</ul>
 							</p>
@@ -181,12 +186,12 @@ function App() {
 							<p id="elem1">
 								<ul>
 									<li>
-										<em>Success Stories:</em> We share stories
-										with individuals and organizations that
-										have successfully adopted ethical
-										computing practices, highlighting the
-										positive impact on their operations and
-										the environment.
+										<em>Success Stories:</em> We share
+										stories with individuals and
+										organizations that have successfully
+										adopted ethical computing practices,
+										highlighting the positive impact on
+										their operations and the environment.
 									</li>
 									<li>
 										<em>Worker Stories:</em> We tell the
@@ -196,11 +201,11 @@ function App() {
 										their lives and communities.
 									</li>
 									<li>
-										<em>Consumer Testimonials:</em> We also collect
-										and share testimonials from consumers
-										who have switched to ethical computers,
-										and discuss their experiences and the
-										benefits they have observed.
+										<em>Consumer Testimonials:</em> We also
+										collect and share testimonials from
+										consumers who have switched to ethical
+										computers, and discuss their experiences
+										and the benefits they have observed.
 									</li>
 								</ul>
 							</p>
@@ -220,27 +225,58 @@ function App() {
 							<li>Grégoire MARION</li>
 							<li>Donatien VACHETTE</li>
 						</ul>
-              <img alt="woquiez.png" id="woquiez" src="/image.png" />
+						<img alt="woquiez.png" id="woquiez" src="/image.png" />
 					</div>
 					<div className="footer-item" id="credits">
 						<h4>Credits</h4>
 						<ul>
-							<li>Copyright {(new Date()).getFullYear()} ©</li>
+							<li>Copyright {new Date().getFullYear()} ©</li>
 							<li>Benjamin DOUADY for an image</li>
 						</ul>
 					</div>
-					<div>
+					<div className="footer-item" id="see-also">
 						<h4>See also</h4>
 						<div className="icons">
-							<a href="https://www.instagram.com/sustainable._.future/"><img alt="instalogo.png" src={"https://img.icons8.com/ios-filled/50/" + color + "/instagram-new--v1.png"}></img></a>
-							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img alt="gift.png" src={"https://img.icons8.com/sf-black/50/" + color + "/packaging.png"}></img></a>
-							<img alt="instaqrcode.png" src="/sustainable._.future_qr.png"></img>
+							<a href="https://www.instagram.com/sustainable._.future/">
+								<img
+									alt="instalogo.png"
+									src={
+										"https://img.icons8.com/ios-filled/50/" +
+										color +
+										"/instagram-new--v1.png"
+									}
+								></img>
+							</a>
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+								<img
+									alt="gift.png"
+									src={
+										"https://img.icons8.com/sf-black/50/" +
+										color +
+										"/packaging.png"
+									}
+								></img>
+							</a>
+							<img
+								alt="instaqrcode.png"
+								src="/sustainable._.future_qr.png"
+							></img>
 						</div>
 					</div>
 				</div>
 			</main>
 			<aside className="sidebar">
-				<a href="" id="bt-donate"><img alt="love.png" src={"https://img.icons8.com/ios-filled/30/" + color + "/filled-like.png"}></img>Donate</a>
+				<a href="" id="bt-donate">
+					<img
+						alt="love.png"
+						src={
+							"https://img.icons8.com/ios-filled/30/" +
+							color +
+							"/filled-like.png"
+						}
+					></img>
+					Donate
+				</a>
 
 				<Button
 					id="bt-1"
