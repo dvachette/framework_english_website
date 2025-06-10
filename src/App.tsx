@@ -15,33 +15,37 @@ function App() {
 					<div id="social" className="item">
 						<div className="content">
 							<h3>
-								Building Communities Around Ethical Computing
+								Let's build a community around ethical computing
 							</h3>
 							<p id="elem1">
 								<ul>
 									<li>
-										<em>Community Engagement:</em> Encourage
-										the formation of local groups focused on
-										ethical computing. These groups can
-										organize workshops, repair cafes, and
-										educational sessions to promote the use
-										of recyclable and long-lasting
-										computers.
+										<em>Community Engagement:</em> We're
+										encouraging the formation of local
+										groups focused on ethical computing.
+										These groups can organize workshops,
+										repair cafes, and educational sessions
+										to promote the use of recyclable and
+										long-lasting computers.
 									</li>
 									<li>
-										<em>Social Media Campaigns:</em> Launch
-										campaigns on social media platforms to
+										<em>Social Media Campaigns:</em> We've
+										launched campaigns on the internet to
 										raise awareness about the benefits of
 										ethical computers. Use hashtags like
-										#EthicalComputing, #RecycleTech, and
-										#FairTech to reach a wider audience.
+										<em> #EthicalComputing</em>,
+										<em> #RecycleTech</em>, and
+										<em> #FairTech</em> to reach a wider
+										audience.
 									</li>
 									<li>
-										<em>Partnerships:</em> Collaborate with
-										schools, universities, and non-profit
-										organizations to spread the message.
-										Offer incentives for institutions that
-										adopt ethical computing practices.
+										<em>Partnerships:</em> We collaborate
+										with schools, universities, and
+										non-profit organizations like
+										<em> The Linux Software Foundation</em>
+										to spread the message. Offer incentives
+										for institutions that adopt ethical
+										computing practices.
 									</li>
 								</ul>
 							</p>
@@ -223,7 +227,11 @@ function App() {
 					<div>
 						<h4>See also</h4>
 						<ul>
-							<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Useful link</a></li>
+							<li>
+								<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+									Useful link
+								</a>
+							</li>
 							{/* <li><a href="http://p2400602.pages.univ-lyon1.fr/why-linux/form.html">12</a></li> */}
 						</ul>
 					</div>
