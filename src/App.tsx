@@ -11,6 +11,10 @@ function App() {
 					<h1>Welcome to a world of ethic computers</h1>
 				</div>
 
+				<div className="logo">
+					<img alt="sustainable-logo.png" src="white-transparent-logo.png"></img>
+				</div>
+
 				<div id="content-pane">
 					<div id="social" className="item">
 						<div className="content">
