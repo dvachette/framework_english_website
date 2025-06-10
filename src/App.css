@@ -13,6 +13,19 @@ div.app {
   background-color: var(--background-color);
 }
 
+em {
+	color: var(--emphasis-color);
+}
+
+h3 {
+	margin: 0;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
 div#header-pane {
   position: relative;
   top: 0;
