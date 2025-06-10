@@ -236,6 +236,8 @@ function App() {
 				</div>
 			</main>
 			<aside className="sidebar">
+				<a href="" id="bt-donate"><img alt="love.png" src={"https://img.icons8.com/ios-filled/30/" + color + "/filled-like.png"}></img>Donate</a>
+
 				<Button
 					id="bt-1"
 					label="Home"
