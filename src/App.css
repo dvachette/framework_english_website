@@ -56,6 +56,14 @@ div#header-pane {
 	background-image: url("https://raw.githubusercontent.com/dvachette/framework_english_website/refs/heads/main/public/forest.jpg");
 }
 
+img#woquiez {
+  position:relative;
+  bottom : 0;
+  left : 0;
+  width: 150px;
+  border-radius: 75px;
+  }
+
 button.Button {
 	background-color: transparent;
 	color: var(--button-color);
@@ -182,3 +190,4 @@ button:hover > span.ButtonLabel {
 		opacity: 0;
 	}
 }
+

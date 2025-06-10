@@ -140,28 +140,27 @@ function App() {
 							<p id="elem1">
 								<ul>
 									<li>
-										<em>Awareness Campaigns:</em> Use
+										<em>Awareness Campaigns:</em> We use
 										various media channels to signal the
-										importance of ethical computing. Create
+										importance of ethical computing, creating
 										impactful advertisements, documentaries,
-										and articles that highlight the issues
-										and benefits.
+										and articles that warns about the issues
+										of non sustainable computers.
 									</li>
 									<li>
-										<em>Events and Conferences:</em>
-										Organize and participate in events and
+										<em>Events and Conferences:</em> We
+                    plan to organize and participate in events and
 										conferences focused on ethical
-										computing. Use these platforms to signal
-										key messages and to network with other
-										advocates and professionals in the
-										field.
+										computing. We want to use these platforms to signal
+										key messages and to connect with other
+										professionals.
 									</li>
 									<li>
-										<em>Influencer Partnerships:</em>{" "}
-										Collaborate with influencers and thought
+										<em>Influencer Partnerships:</em> We 
+                    look forward to collaborate
+                    with influencers and thought
 										leaders who can signal the importance of
 										ethical computing to their followers.
-										Use their reach to amplify your message.
 									</li>
 								</ul>
 							</p>
@@ -178,25 +177,25 @@ function App() {
 							<p id="elem1">
 								<ul>
 									<li>
-										<em>Success Stories:</em> Share stories
-										of individuals and organizations that
+										<em>Success Stories:</em> We share stories
+										with individuals and organizations that
 										have successfully adopted ethical
-										computing practices. Highlight the
+										computing practices, highlighting the
 										positive impact on their operations and
 										the environment.
 									</li>
 									<li>
-										<em>Worker Stories:</em> Tell the
+										<em>Worker Stories:</em> We tell the
 										stories of workers in the tech industry
-										who benefit from fair labor practices.
-										Highlight how ethical computing improves
+										who benefit from fair labor practices,
+										showing how ethical computing improves
 										their lives and communities.
 									</li>
 									<li>
-										<em>Consumer Testimonials:</em> Collect
+										<em>Consumer Testimonials:</em> We also collect
 										and share testimonials from consumers
-										who have switched to ethical computers.
-										Discuss their experiences and the
+										who have switched to ethical computers,
+										and discuss their experiences and the
 										benefits they have observed.
 									</li>
 								</ul>
@@ -217,12 +216,13 @@ function App() {
 							<li>Grégoire MARION</li>
 							<li>Donatien VACHETTE</li>
 						</ul>
+            <img alt="woquiez.png" id="woquiez" src="/image.png" />
 					</div>
 					<div className="footer-item" id="credits">
 						<h4>Credits</h4>
 						<ul>
-							<li>Copyright {new Date().getFullYear()} ©</li>
-							<li>[Benjamin | Baptiste]</li>
+							<li>Copyright {(new Date()).getFullYear()} ©</li>
+							<li>Benjamin DOUADY for an image</li>
 						</ul>
 					</div>
 					<div>
