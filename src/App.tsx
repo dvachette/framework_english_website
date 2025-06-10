@@ -62,26 +62,27 @@ function App() {
 							<p id="elem1">
 								<ul>
 									<li>
-										<em>Consumer Guides:</em> Develop guides
-										that help consumers identify ethical
-										computer brands and models. Highlight
-										certifications and labels that indicate
-										fair labor practices and environmental
-										sustainability.
+										<em>Consumer Guides:</em> We're creating
+										some guides that help consumers identify
+										ethical computer brands and models.
+										Highlight certifications and labels that
+										indicate fair labor practices and
+										environmental sustainability.
 									</li>
 									<li>
-										<em>Technical Support:</em> Provide
+										<em>Technical Support:</em> We provide
 										resources for maintaining and upgrading
-										computers to extend their lifespan.
-										Offer tutorials and webinars on basic
-										computer maintenance and repair.
+										computers to extend their lifespan. We
+										also offer tutorials on basic computer
+										maintenance and repair.
 									</li>
 									<li>
-										<em>Customer Service:</em> Establish a
-										hotline or online platform where users
-										can get advice on ethical computing,
-										including how to recycle old computers
-										and where to buy ethical ones.
+										<em>Customer Service:</em> We wish to
+										establish a hotline or an online
+										platform where users can get advice on
+										ethical computing, including how to
+										recycle old computers and where to buy
+										ethical ones.
 									</li>
 								</ul>
 							</p>
@@ -102,10 +103,10 @@ function App() {
 										promote computer recycling programs.
 										Partner with e-waste recycling companies
 										to ensure that old computers are
-										disposed of responsibly. computers.
+										disposed of responsibly.
 									</li>
 									<li>
-										<em>Advocacy:</em> Advocate for policies
+										<em>Advocacy:</em> We advocate for policies
 										that encourage the production and use of
 										ethical computers. Engage with
 										policymakers to push for regulations
