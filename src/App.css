@@ -20,6 +20,12 @@ em {
 
 h3 {
 	margin: 0;
+	font-size: 3rem;
+	font-family: "Jaro", sans-serif;
+}
+
+li {
+	padding-bottom: 5%;
 }
 
 .content {
