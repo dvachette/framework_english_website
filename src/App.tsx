@@ -216,7 +216,7 @@ function App() {
 							<li>Grégoire MARION</li>
 							<li>Donatien VACHETTE</li>
 						</ul>
-            	<img alt="woquiez.png" id="woquiez" src="/image.png" />
+              <img alt="woquiez.png" id="woquiez" src="/image.png" />
 					</div>
 					<div className="footer-item" id="credits">
 						<h4>Credits</h4>
@@ -230,7 +230,7 @@ function App() {
 						<div className="icons">
 							<a href="https://www.instagram.com/sustainable._.future/"><img alt="instalogo.png" src={"https://img.icons8.com/ios-filled/50/" + color + "/instagram-new--v1.png"}></img></a>
 							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img alt="gift.png" src={"https://img.icons8.com/sf-black/50/" + color + "/packaging.png"}></img></a>
-							<img alt="instaqrcode.png" src="public/sustainable._.future_qr.png"></img>
+							<img alt="instaqrcode.png" src="/sustainable._.future_qr.png"></img>
 						</div>
 					</div>
 				</div>
