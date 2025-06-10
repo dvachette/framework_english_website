@@ -48,7 +48,7 @@ function App() {
 						</div>
 						<img
 							className="img-round"
-							src="public/Press-Assets-img02-3641916910.jpg"
+							src="/meme-social.png"
 							alt="IUT Image"
 						/>
 					</div>
@@ -84,7 +84,7 @@ function App() {
 						</div>
 						<img
 							className="img-round"
-							src="public/Press-Assets-img02-3641916910.jpg"
+							src="/meme-support.jpg"
 							alt="IUT Image"
 						/>
 					</div>
@@ -123,7 +123,7 @@ function App() {
 						</div>
 						<img
 							className="img-round"
-							src="public/Press-Assets-img02-3641916910.jpg"
+							src="/meme-action.png"
 							alt="IUT Image"
 						/>
 					</div>
@@ -163,7 +163,7 @@ function App() {
 						</div>
 						<img
 							className="img-round"
-							src="public/Press-Assets-img02-3641916910.jpg"
+							src="/meme-signal.png"
 							alt="IUT Image"
 						/>
 					</div>
@@ -199,7 +199,7 @@ function App() {
 						</div>
 						<img
 							className="img-round"
-							src="public/Press-Assets-img02-3641916910.jpg"
+							src="/meme-stories.png"
 							alt="IUT Image"
 						/>
 					</div>
