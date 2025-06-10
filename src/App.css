@@ -90,7 +90,7 @@ p {
 
 img.img-round {
   height: 30%;
-  border-radius: 100px;
+  border-radius: 15px;
 }
 
 button > span.ButtonLabel {

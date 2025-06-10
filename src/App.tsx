@@ -15,7 +15,7 @@ function App() {
             <div id="social" className="item">
               <p id="elem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni fuga labore quisquam vitae ea porro alias placeat. Cupiditate quisquam in suscipit sunt, ad voluptatem nulla sequi eos similique voluptatum.
               Et at quae iure praesentium dicta consequuntur sint commodi fuga tenetur exercitationem laborum veniam vel asperiores non alias deserunt porro quibusdam facilis ex, quo accusantium expedita vero eum! Molestias, fugiat!</p>
-              <img className="img-round" src="src/assets/Press-Assets-img02-3641916910.jpg" alt="IUT Image" />
+              <img className="img-round" src="/meme-social.png" alt="IUT Image" />
             </div>
             <div id="support" className="item">
               <p id="elem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni fuga labore quisquam vitae ea porro alias placeat. Cupiditate quisquam in suscipit sunt, ad voluptatem nulla sequi eos similique voluptatum.
