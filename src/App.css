@@ -1,7 +1,7 @@
 #root {
   --background-color: #3b683b;
   --emphasis-color: #d2781f;
-  --button-color: #e4e3b2;
+  --button-color: #ffffe1;
 }
 
 div.app {
@@ -10,6 +10,7 @@ div.app {
   font-size: 1.5rem;
   width:100vw;
   display:flex;
+  background-color: var(--background-color);
 }
 
 div#header-pane {
@@ -34,7 +35,6 @@ button.Button {
 button.Button > img.ButtonIcon {
   width: 2rem;
   height: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -48,8 +48,10 @@ h1 {
   margin: auto;
   padding: 1rem;
   font-family: 'Jaro', sans-serif;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
   text-decoration: underline 10px solid var(--emphasis-color);
 }
+
 aside.sidebar {
   position: fixed;
   top: 0;
@@ -64,7 +66,7 @@ aside.sidebar {
 }
 main {
   width: 100vw;
-  background-color:var(--background-color);
+  /* background-color:var(--background-color); */
   height: 600vh;
 }
 

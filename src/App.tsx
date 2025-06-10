@@ -2,6 +2,8 @@ import "./App.css";
 import Button from "./elements/button";
 
 function App() {
+	const color = "FFFFE1";
+
     return (
       <div className="app">
         <main>
@@ -38,13 +40,12 @@ function App() {
           </div>
         </main>
         <aside className="sidebar">
-          <Button id="bt-1" label="Home" onclick={() => scrollToElement("header-pane")} iconPath="https://img.icons8.com/fluency-systems-filled/500/FFFFFF/home.png " />
-
-          <Button id="bt-2" label="Social" onclick={() => scrollToElement("social")} iconPath="https://img.icons8.com/material-rounded/500/FFFFFF/user-group-man-man.png" />
-          <Button id="bt-3" label="Support" onclick={() => scrollToElement("support")} iconPath="https://img.icons8.com/sf-ultralight-filled/500/FFFFFF/flex-biceps.png" />
-          <Button id="bt-3" label="Action" onclick={() => scrollToElement("action")} iconPath="https://img.icons8.com/material-rounded/500/FFFFFF/lightning-bolt--v1.png" />
-          <Button id="bt-3" label="Signal" onclick={() => scrollToElement("signal")} iconPath="https://img.icons8.com/ios-glyphs/500/FFFFFF/commercial.png" />
-          <Button id="bt-3" label="Stories" onclick={() => scrollToElement("stories")} iconPath="https://img.icons8.com/ios-glyphs/500/FFFFFF/book.png" />
+		  <Button id="bt-1" label="Home" onclick={() => scrollToElement("header-pane")} iconPath={"https://img.icons8.com/fluency-systems-filled/500/" + color + "/home.png "} />
+          <Button id="bt-2" label="Social" onclick={() => scrollToElement("social")} iconPath={"https://img.icons8.com/material-rounded/500/" + color + "/user-group-man-man.png"} />
+          <Button id="bt-3" label="Support" onclick={() => scrollToElement("support")} iconPath={"https://img.icons8.com/sf-ultralight-filled/500/" + color + "/flex-biceps.png"} />
+          <Button id="bt-3" label="Action" onclick={() => scrollToElement("action")} iconPath={"https://img.icons8.com/material-rounded/500/" + color + "/lightning-bolt--v1.png"} />
+          <Button id="bt-3" label="Signal" onclick={() => scrollToElement("signal")} iconPath={"https://img.icons8.com/ios-glyphs/500/" + color + "/commercial.png"} />
+          <Button id="bt-3" label="Stories" onclick={() => scrollToElement("stories")} iconPath={"https://img.icons8.com/ios-glyphs/500/" + color + "/book.png"} />
         </aside>
       </div>
   );
