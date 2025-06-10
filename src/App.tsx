@@ -40,7 +40,7 @@ function App() {
           </div>
         </main>
         <aside className="sidebar">
-				<Button id="bt-1" label="Home" onclick={() => scrollToElement("header-pane")} iconPath={"https://img.icons8.com/fluency-systems-filled/500/" + color + "/home.png "} />
+		  <Button id="bt-1" label="Home" onclick={() => scrollToElement("header-pane")} iconPath={"https://img.icons8.com/fluency-systems-filled/500/" + color + "/home.png "} />
           <Button id="bt-2" label="Social" onclick={() => scrollToElement("social")} iconPath={"https://img.icons8.com/material-rounded/500/" + color + "/user-group-man-man.png"} />
           <Button id="bt-3" label="Support" onclick={() => scrollToElement("support")} iconPath={"https://img.icons8.com/sf-ultralight-filled/500/" + color + "/flex-biceps.png"} />
           <Button id="bt-3" label="Action" onclick={() => scrollToElement("action")} iconPath={"https://img.icons8.com/material-rounded/500/" + color + "/lightning-bolt--v1.png"} />
