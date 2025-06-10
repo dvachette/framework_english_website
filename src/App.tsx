@@ -216,7 +216,7 @@ function App() {
 					<div className="footer-item" id="credits">
 						<h4>Credits</h4>
 						<ul>
-							<li>Copyright©</li>
+							<li>Copyright {(new Date()).getFullYear()} ©</li>
 							<li>[Benjamin | Baptiste]</li>
 						</ul>
 					</div>
